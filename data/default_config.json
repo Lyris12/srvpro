@@ -28,8 +28,8 @@
     "display_watchers": false,
     "i18n": {
       "auto_pick": false,
-      "default": "zh-cn",
-      "fallback": "en-us",
+      "default": "en-us",
+      "fallback": "zh-cn",
       "map": {
         "CN": "zh-cn",
         "HK": "zh-cn",
