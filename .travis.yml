@@ -2,7 +2,12 @@ dist: bionic
 language: node_js
 node_js:
   - lts/*
-script: npm test
+script:
+  - sudo firewall-cmd --zone=public --permanent --add-port=7999/tcp
+  - sudo firewall-cmd --zone=public --permanent --add-port=7922/tcp
+  - sudo firewall-cmd --zone=public --permanent --add-port=22/tcp
+  - sudo firewall-cmd --reload
+  - node ygopro-server.js
 cache:
   npm: false
 git:
