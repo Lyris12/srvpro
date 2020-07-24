@@ -2,9 +2,7 @@ dist: bionic
 language: node_js
 node_js:
   - lts/*
-script:
-  - ifconfig
-  - node ygopro-server.js
+script: node ygopro-server.js
 cache:
   npm: false
 git:
