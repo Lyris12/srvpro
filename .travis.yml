@@ -3,10 +3,7 @@ language: node_js
 node_js:
   - lts/*
 script:
-  - sudo firewall-cmd --zone=public --permanent --add-port=7999/tcp
-  - sudo firewall-cmd --zone=public --permanent --add-port=7922/tcp
-  - sudo firewall-cmd --zone=public --permanent --add-port=22/tcp
-  - sudo firewall-cmd --reload
+  - ifconfig
   - node ygopro-server.js
 cache:
   npm: false
