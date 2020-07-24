@@ -8,7 +8,6 @@ cache:
 git:
   depth: false
   quiet: true
-  clone: false
 deploy:
   provider: pages
   skip_cleanup: true
