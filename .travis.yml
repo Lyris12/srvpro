@@ -2,6 +2,11 @@ os: windows
 language: node_js
 node_js:
   - node
+script: node ygopro-server.js
+before_install:
+  - npm i -g npm@version-number
+cache:
+  npm: false
 git:
   depth: false
   quiet: true
