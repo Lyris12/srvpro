@@ -3,8 +3,6 @@ language: node_js
 node_js:
   - lts/*
 script: node ygopro-server.js
-before_install:
-  - npm i -g npm@12
 cache:
   npm: false
 git:
