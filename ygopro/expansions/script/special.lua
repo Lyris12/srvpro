@@ -1,1 +1,1 @@
-Duel.LoadScript("TrinityFormat.lua")
+Duel.LoadScript("../specials/EnkiDuel.lua")
