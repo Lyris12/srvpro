@@ -1,6 +1,6 @@
 {
   "file": "./config/config.json",
-  "port": 434,
+  "port": 7999,
   "version": 4945,
   "hostinfo": {
     "lflist": 0,
